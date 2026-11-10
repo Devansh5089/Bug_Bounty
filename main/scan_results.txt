@@ -1,0 +1,2359 @@
+# Nmap 7.95 scan initiated Tue Nov 10 13:09:52 2026 as: /usr/lib/nmap/nmap --privileged -T4 -F -iL live.txt -oN scan_results.txt
+Nmap scan report for atlantis-webhook.wolt.com (18.155.33.37)
+Host is up (0.20s latency).
+Other addresses for atlantis-webhook.wolt.com (not scanned): 18.155.33.123 18.155.33.7 18.155.33.106
+rDNS record for 18.155.33.37: server-18-155-33-37.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for api.wolt.com (18.155.49.36)
+Host is up (0.15s latency).
+Other addresses for api.wolt.com (not scanned): 18.155.49.106 18.155.49.97 18.155.49.27
+rDNS record for 18.155.49.36: server-18-155-49-36.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for asset-repository-service.wolt.com (18.155.33.127)
+Host is up (0.12s latency).
+Other addresses for asset-repository-service.wolt.com (not scanned): 18.155.33.99 18.155.33.70 18.155.33.32
+rDNS record for 18.155.33.127: server-18-155-33-127.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-avatars.wolt.com (54.240.162.12)
+Host is up (0.13s latency).
+Other addresses for converse-avatars.wolt.com (not scanned): 54.240.162.64 54.240.162.65 54.240.162.63
+rDNS record for 54.240.162.12: server-54-240-162-12.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for apua.wolt.com (108.157.238.40)
+Host is up (0.14s latency).
+Other addresses for apua.wolt.com (not scanned): 108.157.238.103 108.157.238.23 108.157.238.93
+rDNS record for 108.157.238.40: server-108-157-238-40.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for consumer-api.wolt.com (13.32.251.103)
+Host is up (0.13s latency).
+Other addresses for consumer-api.wolt.com (not scanned): 13.32.251.56 13.32.251.65 13.32.251.100
+rDNS record for 13.32.251.103: server-13-32-251-103.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for atlantis-steiger.prod.fg.wolt.com (34.249.32.119)
+Host is up (0.021s latency).
+Other addresses for atlantis-steiger.prod.fg.wolt.com (not scanned): 63.34.50.26 54.73.57.62
+rDNS record for 34.249.32.119: ec2-34-249-32-119.eu-west-1.compute.amazonaws.com
+Not shown: 99 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for beta-wolt-com-static-assets.wolt.com (54.240.162.113)
+Host is up (0.018s latency).
+Other addresses for beta-wolt-com-static-assets.wolt.com (not scanned): 54.240.162.8 54.240.162.111 54.240.162.55
+rDNS record for 54.240.162.113: server-54-240-162-113.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for auditorium.wolt.com (54.230.27.70)
+Host is up (0.15s latency).
+Other addresses for auditorium.wolt.com (not scanned): 54.230.27.58 54.230.27.44 54.230.27.129
+rDNS record for 54.230.27.70: server-54-230-27-70.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for atlantis-test.prod.fg.wolt.com (54.171.219.192)
+Host is up (0.025s latency).
+Other addresses for atlantis-test.prod.fg.wolt.com (not scanned): 18.202.96.42 52.215.226.39
+rDNS record for 54.171.219.192: ec2-54-171-219-192.eu-west-1.compute.amazonaws.com
+Not shown: 99 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for ad-bookings.wolt.com (54.240.162.3)
+Host is up (0.14s latency).
+Other addresses for ad-bookings.wolt.com (not scanned): 54.240.162.22 54.240.162.50 54.240.162.79
+rDNS record for 54.240.162.3: server-54-240-162-3.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for careers.wolt.com (108.157.238.54)
+Host is up (0.13s latency).
+Other addresses for careers.wolt.com (not scanned): 108.157.238.39 108.157.238.71 108.157.238.90
+rDNS record for 108.157.238.54: server-108-157-238-54.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for beta2.wolt.com (54.230.27.28)
+Host is up (0.21s latency).
+Other addresses for beta2.wolt.com (not scanned): 54.230.27.104 54.230.27.31 54.230.27.59
+rDNS record for 54.230.27.28: server-54-230-27-28.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for accounting-service.wolt.com (13.32.251.43)
+Host is up (0.17s latency).
+Other addresses for accounting-service.wolt.com (not scanned): 13.32.251.75 13.32.251.110 13.32.251.71
+rDNS record for 13.32.251.43: server-13-32-251-43.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-api.wolt.com (108.157.238.52)
+Host is up (0.18s latency).
+Other addresses for converse-api.wolt.com (not scanned): 108.157.238.77 108.157.238.2 108.157.238.32
+rDNS record for 108.157.238.52: server-108-157-238-52.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for brand-insights.wolt.com (35.198.105.47)
+Host is up (0.31s latency).
+rDNS record for 35.198.105.47: 47.105.198.35.bc.googleusercontent.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cdn.wolt.com (54.240.162.23)
+Host is up (0.12s latency).
+Other addresses for cdn.wolt.com (not scanned): 54.240.162.68 54.240.162.76 54.240.162.27 2600:9000:2636:4400:6:80be:7c80:93a1 2600:9000:2636:9e00:6:80be:7c80:93a1 2600:9000:2636:8800:6:80be:7c80:93a1 2600:9000:2636:e800:6:80be:7c80:93a1 2600:9000:2636:5a00:6:80be:7c80:93a1 2600:9000:2636:5800:6:80be:7c80:93a1 2600:9000:2636:f600:6:80be:7c80:93a1 2600:9000:2636:e600:6:80be:7c80:93a1
+rDNS record for 54.240.162.23: server-54-240-162-23.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for authentication.wolt.com (54.240.162.90)
+Host is up (0.14s latency).
+Other addresses for authentication.wolt.com (not scanned): 54.240.162.64 54.240.162.108 54.240.162.106
+rDNS record for 54.240.162.90: server-54-240-162-90.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-emails-api.wolt.com (54.230.27.18)
+Host is up (0.13s latency).
+Other addresses for converse-emails-api.wolt.com (not scanned): 54.230.27.31 54.230.27.55 54.230.27.53
+rDNS record for 54.230.27.18: server-54-230-27-18.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for agentic-shopping.wolt.com (18.155.33.95)
+Host is up (0.18s latency).
+Other addresses for agentic-shopping.wolt.com (not scanned): 18.155.33.28 18.155.33.44 18.155.33.67
+rDNS record for 18.155.33.95: server-18-155-33-95.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-attachments.wolt.com (18.155.33.25)
+Host is up (0.15s latency).
+Other addresses for converse-attachments.wolt.com (not scanned): 18.155.33.76 18.155.33.33 18.155.33.36
+rDNS record for 18.155.33.25: server-18-155-33-25.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for beta2-wolt-com-static-assets.wolt.com (18.161.125.67)
+Host is up (0.16s latency).
+Other addresses for beta2-wolt-com-static-assets.wolt.com (not scanned): 18.161.125.106 18.161.125.92 18.161.125.97
+rDNS record for 18.161.125.67: server-18-161-125-67.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for capital.wolt.com (3.175.86.5)
+Host is up (0.22s latency).
+Other addresses for capital.wolt.com (not scanned): 3.175.86.14 3.175.86.119 3.175.86.102
+rDNS record for 3.175.86.5: server-3-175-86-5.mrs53.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for broker-jr.wolt.com (108.159.28.32)
+Host is up (0.15s latency).
+Other addresses for broker-jr.wolt.com (not scanned): 108.159.28.92 108.159.28.75 108.159.28.76
+rDNS record for 108.159.28.32: server-108-159-28-32.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for atlantis.prod.fg.wolt.com (54.220.161.208)
+Host is up (0.025s latency).
+Other addresses for atlantis.prod.fg.wolt.com (not scanned): 52.30.199.12 34.245.249.122
+rDNS record for 54.220.161.208: ec2-54-220-161-208.eu-west-1.compute.amazonaws.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-rtm-api.wolt.com (108.159.46.8)
+Host is up (0.15s latency).
+Other addresses for converse-rtm-api.wolt.com (not scanned): 108.159.46.108 108.159.46.52 108.159.46.113
+rDNS record for 108.159.46.8: server-108-159-46-8.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for adeptio-frontshop.wolt.com (108.159.28.17)
+Host is up (0.22s latency).
+Other addresses for adeptio-frontshop.wolt.com (not scanned): 108.159.28.4 108.159.28.62 108.159.28.29
+rDNS record for 108.159.28.17: server-108-159-28-17.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-translate-api.wolt.com (18.161.125.76)
+Host is up (0.11s latency).
+Other addresses for converse-translate-api.wolt.com (not scanned): 18.161.125.7 18.161.125.23 18.161.125.86
+rDNS record for 18.161.125.76: server-18-161-125-76.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for beta.wolt.com (108.159.46.26)
+Host is up (0.11s latency).
+Other addresses for beta.wolt.com (not scanned): 108.159.46.82 108.159.46.17 108.159.46.10
+rDNS record for 108.159.46.26: server-108-159-46-26.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cashier.wolt.com (108.159.46.5)
+Host is up (0.15s latency).
+Other addresses for cashier.wolt.com (not scanned): 108.159.46.124 108.159.46.39 108.159.46.101
+rDNS record for 108.159.46.5: server-108-159-46-5.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for clock.wolt.com (108.159.91.82)
+Host is up (0.10s latency).
+Other addresses for clock.wolt.com (not scanned): 108.159.91.113 108.159.91.57 108.159.91.48
+rDNS record for 108.159.91.82: server-108-159-91-82.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for consumer-user.wolt.com (108.159.46.100)
+Host is up (0.13s latency).
+Other addresses for consumer-user.wolt.com (not scanned): 108.159.46.118 108.159.46.69 108.159.46.30
+rDNS record for 108.159.46.100: server-108-159-46-100.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-api.wolt.com (108.159.28.34)
+Host is up (0.12s latency).
+Other addresses for courier-api.wolt.com (not scanned): 108.159.28.92 108.159.28.76 108.159.28.78
+rDNS record for 108.159.28.34: server-108-159-28-34.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for consumer-static-assets.wolt.com (108.159.28.29)
+Host is up (0.14s latency).
+Other addresses for consumer-static-assets.wolt.com (not scanned): 108.159.28.66 108.159.28.3 108.159.28.9
+rDNS record for 108.159.28.29: server-108-159-28-29.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for communications-service.wolt.com (18.161.125.80)
+Host is up (0.11s latency).
+Other addresses for communications-service.wolt.com (not scanned): 18.161.125.18 18.161.125.96 18.161.125.68
+rDNS record for 18.161.125.80: server-18-161-125-80.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for consumer-api-experiment.wolt.com (108.159.46.17)
+Host is up (0.10s latency).
+Other addresses for consumer-api-experiment.wolt.com (not scanned): 108.159.46.69 108.159.46.82 108.159.46.129
+rDNS record for 108.159.46.17: server-108-159-46-17.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-conversation-priorities-api.wolt.com (108.159.91.35)
+Host is up (0.16s latency).
+Other addresses for converse-conversation-priorities-api.wolt.com (not scanned): 108.159.91.26 108.159.91.63 108.159.91.104
+rDNS record for 108.159.91.35: server-108-159-91-35.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for consentio-gateway.wolt.com (108.159.46.69)
+Host is up (0.10s latency).
+Other addresses for consentio-gateway.wolt.com (not scanned): 108.159.46.39 108.159.46.28 108.159.46.6
+rDNS record for 108.159.46.69: server-108-159-46-69.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-onboarding.wolt.com (18.161.125.120)
+Host is up (0.13s latency).
+Other addresses for courier-onboarding.wolt.com (not scanned): 18.161.125.59 18.161.125.100 18.161.125.43
+rDNS record for 18.161.125.120: server-18-161-125-120.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for consumer-events.wolt.com (108.159.91.70)
+Host is up (0.11s latency).
+Other addresses for consumer-events.wolt.com (not scanned): 108.159.91.54 108.159.91.60 108.159.91.86
+rDNS record for 108.159.91.70: server-108-159-91-70.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-live-monitoring.wolt.com (108.159.91.31)
+Host is up (0.15s latency).
+Other addresses for converse-live-monitoring.wolt.com (not scanned): 108.159.91.21 108.159.91.129 108.159.91.61
+rDNS record for 108.159.91.31: server-108-159-91-31.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for control-tower.wolt.com (108.159.28.61)
+Host is up (0.19s latency).
+Other addresses for control-tower.wolt.com (not scanned): 108.159.28.54 108.159.28.19 108.159.28.115
+rDNS record for 108.159.28.61: server-108-159-28-61.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-rtm-ps.wolt.com (18.161.125.12)
+Host is up (0.11s latency).
+Other addresses for converse-rtm-ps.wolt.com (not scanned): 18.161.125.93 18.161.125.62 18.161.125.118
+rDNS record for 18.161.125.12: server-18-161-125-12.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-rtm-api-dd.wolt.com (108.159.28.91)
+Host is up (0.16s latency).
+Other addresses for converse-rtm-api-dd.wolt.com (not scanned): 108.159.28.64 108.159.28.101 108.159.28.45
+rDNS record for 108.159.28.91: server-108-159-28-91.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-gifs-api.wolt.com (108.159.91.80)
+Host is up (0.15s latency).
+Other addresses for converse-gifs-api.wolt.com (not scanned): 108.159.91.94 108.159.91.68 108.159.91.77
+rDNS record for 108.159.91.80: server-108-159-91-80.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-telemetry-api.wolt.com (108.159.91.61)
+Host is up (0.14s latency).
+Other addresses for converse-telemetry-api.wolt.com (not scanned): 108.159.91.37 108.159.91.69 108.159.91.17
+rDNS record for 108.159.91.61: server-108-159-91-61.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-upload-api.wolt.com (108.159.46.89)
+Host is up (0.13s latency).
+Other addresses for converse-upload-api.wolt.com (not scanned): 108.159.46.84 108.159.46.58 108.159.46.117
+rDNS record for 108.159.46.89: server-108-159-46-89.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-static-resources.wolt.com (108.159.91.25)
+Host is up (0.11s latency).
+Other addresses for converse-static-resources.wolt.com (not scanned): 108.159.91.58 108.159.91.3 108.159.91.90
+rDNS record for 108.159.91.25: server-108-159-91-25.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for corp-kyb.wolt.com (108.159.46.78)
+Host is up (0.11s latency).
+Other addresses for corp-kyb.wolt.com (not scanned): 108.159.46.87 108.159.46.66 108.159.46.41
+rDNS record for 108.159.46.78: server-108-159-46-78.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-suggestions-proxy-api.wolt.com (108.159.91.100)
+Host is up (0.18s latency).
+Other addresses for converse-suggestions-proxy-api.wolt.com (not scanned): 108.159.91.71 108.159.91.128 108.159.91.68
+rDNS record for 108.159.91.100: server-108-159-91-100.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for corporate-service.wolt.com (108.159.91.124)
+Host is up (0.11s latency).
+Other addresses for corporate-service.wolt.com (not scanned): 108.159.91.62 108.159.91.41 108.159.91.3
+rDNS record for 108.159.91.124: server-108-159-91-124.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for corporate.wolt.com (108.159.46.92)
+Host is up (0.19s latency).
+Other addresses for corporate.wolt.com (not scanned): 108.159.46.93 108.159.46.114 108.159.46.66
+rDNS record for 108.159.46.92: server-108-159-46-92.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for data-api-public.wolt.com (18.161.125.127)
+Host is up (0.10s latency).
+Other addresses for data-api-public.wolt.com (not scanned): 18.161.125.26 18.161.125.20 18.161.125.4
+rDNS record for 18.161.125.127: server-18-161-125-127.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-config-service.wolt.com (108.159.91.115)
+Host is up (0.11s latency).
+Other addresses for courier-config-service.wolt.com (not scanned): 108.159.91.15 108.159.91.75 108.159.91.14
+rDNS record for 108.159.91.115: server-108-159-91-115.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-gateway.wolt.com (18.161.125.114)
+Host is up (0.15s latency).
+Other addresses for courier-gateway.wolt.com (not scanned): 18.161.125.64 18.161.125.94 18.161.125.65
+rDNS record for 18.161.125.114: server-18-161-125-114.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for converse-web-static.wolt.com (18.161.125.106)
+Host is up (0.11s latency).
+Other addresses for converse-web-static.wolt.com (not scanned): 18.161.125.121 18.161.125.4 18.161.125.39
+rDNS record for 18.161.125.106: server-18-161-125-106.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for country-configs.wolt.com (108.159.28.62)
+Host is up (0.16s latency).
+Other addresses for country-configs.wolt.com (not scanned): 108.159.28.3 108.159.28.117 108.159.28.90
+rDNS record for 108.159.28.62: server-108-159-28-62.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-engagement-service.wolt.com (108.159.46.122)
+Host is up (0.14s latency).
+Other addresses for courier-engagement-service.wolt.com (not scanned): 108.159.46.101 108.159.46.7 108.159.46.8
+rDNS record for 108.159.46.122: server-108-159-46-122.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-employment-middleware-intake.wolt.com (108.159.46.30)
+Host is up (0.17s latency).
+Other addresses for courier-employment-middleware-intake.wolt.com (not scanned): 108.159.46.98 108.159.46.4 108.159.46.125
+rDNS record for 108.159.46.30: server-108-159-46-30.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier.wolt.com (108.159.91.102)
+Host is up (0.11s latency).
+Other addresses for courier.wolt.com (not scanned): 108.159.91.96 108.159.91.31 108.159.91.122
+rDNS record for 108.159.91.102: server-108-159-91-102.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-payment-service2.wolt.com (108.159.28.129)
+Host is up (0.17s latency).
+Other addresses for courier-payment-service2.wolt.com (not scanned): 108.159.28.73 108.159.28.88 108.159.28.45
+rDNS record for 108.159.28.129: server-108-159-28-129.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ads.wolt.com (104.21.45.94)
+Host is up (0.038s latency).
+Other addresses for ads.wolt.com (not scanned): 172.67.212.218 2606:4700:91b3:3c2c:4a1b:919:4408:ecbf
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for courier-crm-integrations.wolt.com (18.161.125.112)
+Host is up (0.12s latency).
+Other addresses for courier-crm-integrations.wolt.com (not scanned): 18.161.125.56 18.161.125.121 18.161.125.2
+rDNS record for 18.161.125.112: server-18-161-125-112.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-termination-api.wolt.com (18.161.125.108)
+Host is up (0.15s latency).
+Other addresses for courier-termination-api.wolt.com (not scanned): 18.161.125.95 18.161.125.121 18.161.125.24
+rDNS record for 18.161.125.108: server-18-161-125-108.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for deprecated-restaurant-api.wolt.com (18.161.125.6)
+Host is up (0.14s latency).
+Other addresses for deprecated-restaurant-api.wolt.com (not scanned): 18.161.125.101 18.161.125.19 18.161.125.127
+rDNS record for 18.161.125.6: server-18-161-125-6.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for daas-partners-gateway.wolt.com (108.159.46.113)
+Host is up (0.022s latency).
+Other addresses for daas-partners-gateway.wolt.com (not scanned): 108.159.46.54 108.159.46.114 108.159.46.34
+rDNS record for 108.159.46.113: server-108-159-46-113.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for courier-payments-ledger-writer.wolt.com (108.159.46.111)
+Host is up (0.22s latency).
+Other addresses for courier-payments-ledger-writer.wolt.com (not scanned): 108.159.46.108 108.159.46.119 108.159.46.70
+rDNS record for 108.159.46.111: server-108-159-46-111.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for daas.wolt.com (18.161.125.52)
+Host is up (0.16s latency).
+Other addresses for daas.wolt.com (not scanned): 18.161.125.43 18.161.125.119 18.161.125.115
+rDNS record for 18.161.125.52: server-18-161-125-52.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-gateway.wolt.com (18.161.125.85)
+Host is up (0.15s latency).
+Other addresses for delivery-os-gateway.wolt.com (not scanned): 18.161.125.25 18.161.125.112 18.161.125.3
+rDNS record for 18.161.125.85: server-18-161-125-85.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for daas-self-service-api.wolt.com (108.159.46.82)
+Host is up (0.13s latency).
+Other addresses for daas-self-service-api.wolt.com (not scanned): 108.159.46.119 108.159.46.10 108.159.46.116
+rDNS record for 108.159.46.82: server-108-159-46-82.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-earnings.wolt.com (108.159.91.66)
+Host is up (0.16s latency).
+Other addresses for delivery-os-earnings.wolt.com (not scanned): 108.159.91.89 108.159.91.39 108.159.91.128
+rDNS record for 108.159.91.66: server-108-159-91-66.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-metrics.wolt.com (18.161.125.14)
+Host is up (0.16s latency).
+Other addresses for delivery-os-metrics.wolt.com (not scanned): 18.161.125.111 18.161.125.103 18.161.125.115
+rDNS record for 18.161.125.14: server-18-161-125-14.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-jobs.wolt.com (108.159.46.110)
+Host is up (0.14s latency).
+Other addresses for delivery-os-jobs.wolt.com (not scanned): 108.159.46.35 108.159.46.71 108.159.46.27
+rDNS record for 108.159.46.110: server-108-159-46-110.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-schedule.wolt.com (108.159.28.100)
+Host is up (0.16s latency).
+Other addresses for delivery-os-schedule.wolt.com (not scanned): 108.159.28.92 108.159.28.47 108.159.28.127
+rDNS record for 108.159.28.100: server-108-159-28-100.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-core.wolt.com (108.159.46.24)
+Host is up (0.14s latency).
+Other addresses for delivery-os-core.wolt.com (not scanned): 108.159.46.29 108.159.46.41 108.159.46.20
+rDNS record for 108.159.46.24: server-108-159-46-24.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-tasks.wolt.com (108.159.46.70)
+Host is up (0.16s latency).
+Other addresses for delivery-os-tasks.wolt.com (not scanned): 108.159.46.87 108.159.46.9 108.159.46.28
+rDNS record for 108.159.46.70: server-108-159-46-70.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-settings.wolt.com (18.161.125.105)
+Host is up (0.15s latency).
+Other addresses for delivery-settings.wolt.com (not scanned): 18.161.125.27 18.161.125.59 18.161.125.48
+rDNS record for 18.161.125.105: server-18-161-125-105.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-schedule-intake.wolt.com (108.159.91.104)
+Host is up (0.15s latency).
+Other addresses for delivery-os-schedule-intake.wolt.com (not scanned): 108.159.91.62 108.159.91.97 108.159.91.94
+rDNS record for 108.159.91.104: server-108-159-91-104.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-streams.wolt.com (108.159.91.71)
+Host is up (0.21s latency).
+Other addresses for delivery-os-streams.wolt.com (not scanned): 108.159.91.51 108.159.91.40 108.159.91.97
+rDNS record for 108.159.91.71: server-108-159-91-71.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for enterpriseregistration.wolt.com (40.126.18.35)
+Host is up (0.17s latency).
+Other addresses for enterpriseregistration.wolt.com (not scanned): 40.126.18.36 2603:1046:2000:60::b 2603:1046:2000:60::8
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for designsystem.wolt.com (108.159.46.23)
+Host is up (0.14s latency).
+Other addresses for designsystem.wolt.com (not scanned): 108.159.46.91 108.159.46.65 108.159.46.17
+rDNS record for 108.159.46.23: server-108-159-46-23.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os-tracking.wolt.com (108.159.28.47)
+Host is up (0.13s latency).
+Other addresses for delivery-os-tracking.wolt.com (not scanned): 108.159.28.123 108.159.28.118 108.159.28.112
+rDNS record for 108.159.28.47: server-108-159-28-47.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ext.wolt.com (108.159.28.58)
+Host is up (0.16s latency).
+Other addresses for ext.wolt.com (not scanned): 108.159.28.2 108.159.28.10 108.159.28.121
+rDNS record for 108.159.28.58: server-108-159-28-58.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for discovery-cdn.wolt.com (18.161.125.95)
+Host is up (0.23s latency).
+Other addresses for discovery-cdn.wolt.com (not scanned): 18.161.125.45 18.161.125.105 18.161.125.47
+rDNS record for 18.161.125.95: server-18-161-125-95.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for external.wolt.com (18.161.125.27)
+Host is up (0.15s latency).
+Other addresses for external.wolt.com (not scanned): 18.161.125.69 18.161.125.85 18.161.125.16 2600:9000:2576:5400:3:19ed:3400:93a1 2600:9000:2576:8c00:3:19ed:3400:93a1 2600:9000:2576:be00:3:19ed:3400:93a1 2600:9000:2576:a600:3:19ed:3400:93a1 2600:9000:2576:c200:3:19ed:3400:93a1 2600:9000:2576:2e00:3:19ed:3400:93a1 2600:9000:2576:9a00:3:19ed:3400:93a1 2600:9000:2576:ce00:3:19ed:3400:93a1
+rDNS record for 18.161.125.27: server-18-161-125-27.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for getwolt.wolt.com (108.159.28.90)
+Host is up (0.17s latency).
+Other addresses for getwolt.wolt.com (not scanned): 108.159.28.117 108.159.28.12 108.159.28.124
+rDNS record for 108.159.28.90: server-108-159-28-90.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for distribuo.wolt.com (108.159.28.84)
+Host is up (0.19s latency).
+Other addresses for distribuo.wolt.com (not scanned): 108.159.28.14 108.159.28.38 108.159.28.109
+rDNS record for 108.159.28.84: server-108-159-28-84.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for developer-portal-static-assets.wolt.com (108.159.91.81)
+Host is up (0.14s latency).
+Other addresses for developer-portal-static-assets.wolt.com (not scanned): 108.159.91.40 108.159.91.86 108.159.91.123
+rDNS record for 108.159.91.81: server-108-159-91-81.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for grafana.wolt.com (18.161.125.26)
+Host is up (0.14s latency).
+Other addresses for grafana.wolt.com (not scanned): 18.161.125.20 18.161.125.4 18.161.125.127
+rDNS record for 18.161.125.26: server-18-161-125-26.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for developer-gateway.wolt.com (108.159.28.5)
+Host is up (0.16s latency).
+Other addresses for developer-gateway.wolt.com (not scanned): 108.159.28.48 108.159.28.85 108.159.28.36
+rDNS record for 108.159.28.5: server-108-159-28-5.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for document-verification-v2.wolt.com (108.159.46.86)
+Host is up (0.15s latency).
+Other addresses for document-verification-v2.wolt.com (not scanned): 108.159.46.126 108.159.46.39 108.159.46.120
+rDNS record for 108.159.46.86: server-108-159-46-86.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for e-wallet-service.wolt.com (108.159.28.99)
+Host is up (0.13s latency).
+Other addresses for e-wallet-service.wolt.com (not scanned): 108.159.28.79 108.159.28.45 108.159.28.52
+rDNS record for 108.159.28.99: server-108-159-28-99.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for gatekeeper.wolt.com (108.159.28.81)
+Host is up (0.13s latency).
+Other addresses for gatekeeper.wolt.com (not scanned): 108.159.28.69 108.159.28.75 108.159.28.103
+rDNS record for 108.159.28.81: server-108-159-28-81.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for deliver.wolt.com (18.161.125.66)
+Host is up (0.17s latency).
+Other addresses for deliver.wolt.com (not scanned): 18.161.125.119 18.161.125.94 18.161.125.77
+rDNS record for 18.161.125.66: server-18-161-125-66.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for drive.wolt.com (108.159.28.108)
+Host is up (0.15s latency).
+Other addresses for drive.wolt.com (not scanned): 108.159.28.26 108.159.28.98 108.159.28.47
+rDNS record for 108.159.28.108: server-108-159-28-108.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for emporium.wolt.com (108.159.28.44)
+Host is up (0.12s latency).
+Other addresses for emporium.wolt.com (not scanned): 108.159.28.5 108.159.28.40 108.159.28.78
+rDNS record for 108.159.28.44: server-108-159-28-44.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dev-nginx-ingress-public.wolt.com (99.80.193.83)
+Host is up (0.032s latency).
+rDNS record for 99.80.193.83: ec2-99-80-193-83.eu-west-1.compute.amazonaws.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for explore.wolt.com (108.159.46.6)
+Host is up (0.15s latency).
+Other addresses for explore.wolt.com (not scanned): 108.159.46.33 108.159.46.94 108.159.46.119
+rDNS record for 108.159.46.6: server-108-159-46-6.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for email-media.wolt.com (3.174.255.27)
+Host is up (0.23s latency).
+Other addresses for email-media.wolt.com (not scanned): 3.174.255.115 3.174.255.69 3.174.255.119 2600:9000:2912:4200:2:3f2d:dd00:93a1 2600:9000:2912:d200:2:3f2d:dd00:93a1 2600:9000:2912:e800:2:3f2d:dd00:93a1 2600:9000:2912:ae00:2:3f2d:dd00:93a1 2600:9000:2912:e600:2:3f2d:dd00:93a1 2600:9000:2912:ee00:2:3f2d:dd00:93a1 2600:9000:2912:9c00:2:3f2d:dd00:93a1 2600:9000:2912:b200:2:3f2d:dd00:93a1
+rDNS record for 3.174.255.27: server-3-174-255-27.mrs53.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for enterpriseenrollment.wolt.com (13.67.15.129)
+Host is up (0.025s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for developer.wolt.com (108.159.91.122)
+Host is up (0.15s latency).
+Other addresses for developer.wolt.com (not scanned): 108.159.91.113 108.159.91.11 108.159.91.8
+rDNS record for 108.159.91.122: server-108-159-91-122.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fintech-courier-service.wolt.com (13.32.251.109)
+Host is up (0.19s latency).
+Other addresses for fintech-courier-service.wolt.com (not scanned): 13.32.251.30 13.32.251.40 13.32.251.80
+rDNS record for 13.32.251.109: server-13-32-251-109.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for financial-monitoring-service.wolt.com (18.155.49.123)
+Host is up (0.020s latency).
+Other addresses for financial-monitoring-service.wolt.com (not scanned): 18.155.49.59 18.155.49.61 18.155.49.2
+rDNS record for 18.155.49.123: server-18-155-49-123.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fleet-management.wolt.com (108.157.238.67)
+Host is up (0.23s latency).
+Other addresses for fleet-management.wolt.com (not scanned): 108.157.238.109 108.157.238.14 108.157.238.21
+rDNS record for 108.157.238.67: server-108-157-238-67.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fleetmill.wolt.com (18.155.33.16)
+Host is up (0.19s latency).
+Other addresses for fleetmill.wolt.com (not scanned): 18.155.33.101 18.155.33.38 18.155.33.83
+rDNS record for 18.155.33.16: server-18-155-33-16.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for delivery-os.wolt.com (108.157.238.37)
+Host is up (0.024s latency).
+Other addresses for delivery-os.wolt.com (not scanned): 108.157.238.42 108.157.238.12 108.157.238.74
+rDNS record for 108.157.238.37: server-108-157-238-37.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for financial-data-registry.wolt.com (54.230.27.39)
+Host is up (0.18s latency).
+Other addresses for financial-data-registry.wolt.com (not scanned): 54.230.27.111 54.230.27.87 54.230.27.121
+rDNS record for 54.230.27.39: server-54-230-27-39.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for email.comms.wolt.com (34.110.180.34)
+Host is up (0.13s latency).
+rDNS record for 34.110.180.34: 34.180.110.34.bc.googleusercontent.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for israel-tax-reporting-reports.wolt.com (18.155.49.31)
+Host is up (0.24s latency).
+Other addresses for israel-tax-reporting-reports.wolt.com (not scanned): 18.155.49.25 18.155.49.55 18.155.49.48
+rDNS record for 18.155.49.31: server-18-155-49-31.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fulfillment.wolt.com (13.32.251.90)
+Host is up (0.14s latency).
+Other addresses for fulfillment.wolt.com (not scanned): 13.32.251.11 13.32.251.69 13.32.251.39
+rDNS record for 13.32.251.90: server-13-32-251-90.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fort-knox.wolt.com (18.155.49.113)
+Host is up (0.18s latency).
+Other addresses for fort-knox.wolt.com (not scanned): 18.155.49.90 18.155.49.126 18.155.49.119
+rDNS record for 18.155.49.113: server-18-155-49-113.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for jenkins-webhook.wolt.com (18.155.33.7)
+Host is up (0.20s latency).
+Other addresses for jenkins-webhook.wolt.com (not scanned): 18.155.33.123 18.155.33.106 18.155.33.37
+rDNS record for 18.155.33.7: server-18-155-33-7.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fleet-management-access-control.wolt.com (13.32.251.51)
+Host is up (0.17s latency).
+Other addresses for fleet-management-access-control.wolt.com (not scanned): 13.32.251.25 13.32.251.48 13.32.251.50
+rDNS record for 13.32.251.51: server-13-32-251-51.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for launch.wolt.com (18.155.49.102)
+Host is up (0.22s latency).
+Other addresses for launch.wolt.com (not scanned): 18.155.49.110 18.155.49.9 18.155.49.64
+rDNS record for 18.155.49.102: server-18-155-49-102.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for fulfillment-admin.wolt.com (13.32.251.96)
+Host is up (0.18s latency).
+Other addresses for fulfillment-admin.wolt.com (not scanned): 13.32.251.123 13.32.251.120 13.32.251.119
+rDNS record for 13.32.251.96: server-13-32-251-96.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for h4x0rs.wolt.com (3.164.182.107)
+Host is up (0.26s latency).
+Other addresses for h4x0rs.wolt.com (not scanned): 3.164.182.74 3.164.182.37 3.164.182.24
+rDNS record for 3.164.182.107: server-3-164-182-107.mrs53.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for imageproxy.wolt.com (54.230.27.88)
+Host is up (0.21s latency).
+Other addresses for imageproxy.wolt.com (not scanned): 54.230.27.37 54.230.27.6 54.230.27.51
+rDNS record for 54.230.27.88: server-54-230-27-88.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for legacy-colander.wolt.com (18.155.33.123)
+Host is up (0.027s latency).
+Other addresses for legacy-colander.wolt.com (not scanned): 18.155.33.106 18.155.33.37 18.155.33.7
+rDNS record for 18.155.33.123: server-18-155-33-123.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for legacy-cashier.wolt.com (18.155.33.106)
+Host is up (0.20s latency).
+Other addresses for legacy-cashier.wolt.com (not scanned): 18.155.33.37 18.155.33.7 18.155.33.123
+rDNS record for 18.155.33.106: server-18-155-33-106.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for gift-card-shop-http-api.wolt.com (18.155.33.52)
+Host is up (0.17s latency).
+Other addresses for gift-card-shop-http-api.wolt.com (not scanned): 18.155.33.29 18.155.33.9 18.155.33.34
+rDNS record for 18.155.33.52: server-18-155-33-52.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for http-echo-doc.wolt.com (54.230.27.21)
+Host is up (0.16s latency).
+Other addresses for http-echo-doc.wolt.com (not scanned): 54.230.27.33 54.230.27.6 54.230.27.65
+rDNS record for 54.230.27.21: server-54-230-27-21.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for http-echo.wolt.com (18.155.49.129)
+Host is up (0.20s latency).
+Other addresses for http-echo.wolt.com (not scanned): 18.155.49.74 18.155.49.9 18.155.49.56
+rDNS record for 18.155.49.129: server-18-155-49-129.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for kesasyomarit.wolt.com (18.155.49.9)
+Host is up (0.17s latency).
+Other addresses for kesasyomarit.wolt.com (not scanned): 18.155.49.110 18.155.49.102 18.155.49.64
+rDNS record for 18.155.49.9: server-18-155-49-9.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for integration-config-service.wolt.com (54.230.27.45)
+Host is up (0.15s latency).
+Other addresses for integration-config-service.wolt.com (not scanned): 54.230.27.124 54.230.27.8 54.230.27.122
+rDNS record for 54.230.27.45: server-54-230-27-45.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for instore-platform-admin-api.wolt.com (54.240.162.79)
+Host is up (0.15s latency).
+Other addresses for instore-platform-admin-api.wolt.com (not scanned): 54.240.162.62 54.240.162.91 54.240.162.2
+rDNS record for 54.240.162.79: server-54-240-162-79.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for integrations-authentication-service.wolt.com (54.240.162.7)
+Host is up (0.18s latency).
+Other addresses for integrations-authentication-service.wolt.com (not scanned): 54.240.162.69 54.240.162.43 54.240.162.38
+rDNS record for 54.240.162.7: server-54-240-162-7.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for integrations-dev.wolt.com (13.32.251.61)
+Host is up (0.19s latency).
+Other addresses for integrations-dev.wolt.com (not scanned): 13.32.251.24 13.32.251.82 13.32.251.15
+rDNS record for 13.32.251.61: server-13-32-251-61.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for integrations-master.wolt.com (54.240.162.27)
+Host is up (0.20s latency).
+Other addresses for integrations-master.wolt.com (not scanned): 54.240.162.88 54.240.162.38 54.240.162.19
+rDNS record for 54.240.162.27: server-54-240-162-27.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for israel-tax-reporting.wolt.com (108.157.238.75)
+Host is up (0.20s latency).
+Other addresses for israel-tax-reporting.wolt.com (not scanned): 108.157.238.117 108.157.238.115 108.157.238.101
+rDNS record for 108.157.238.75: server-108-157-238-75.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for inventory-management-service.wolt.com (54.240.162.109)
+Host is up (0.19s latency).
+Other addresses for inventory-management-service.wolt.com (not scanned): 54.240.162.110 54.240.162.97 54.240.162.113
+rDNS record for 54.240.162.109: server-54-240-162-109.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for intraday-calculator.wolt.com (18.155.49.24)
+Host is up (0.17s latency).
+Other addresses for intraday-calculator.wolt.com (not scanned): 18.155.49.68 18.155.49.53 18.155.49.61
+rDNS record for 18.155.49.24: server-18-155-49-24.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for invoicing-service.wolt.com (18.155.49.74)
+Host is up (0.24s latency).
+Other addresses for invoicing-service.wolt.com (not scanned): 18.155.49.113 18.155.49.124 18.155.49.27
+rDNS record for 18.155.49.74: server-18-155-49-74.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for it-enrichment-service.wolt.com (54.240.162.13)
+Host is up (0.17s latency).
+Other addresses for it-enrichment-service.wolt.com (not scanned): 54.240.162.18 54.240.162.88 54.240.162.101
+rDNS record for 54.240.162.13: server-54-240-162-13.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for jarvis-ai.wolt.com (54.230.27.97)
+Host is up (0.18s latency).
+Other addresses for jarvis-ai.wolt.com (not scanned): 54.230.27.65 54.230.27.125 54.230.27.39
+rDNS record for 54.230.27.97: server-54-230-27-97.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for links.merchant.wolt.com (34.36.71.179)
+Host is up (0.10s latency).
+rDNS record for 34.36.71.179: 179.71.36.34.bc.googleusercontent.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ledger-shadow.wolt.com (54.240.162.25)
+Host is up (0.18s latency).
+Other addresses for ledger-shadow.wolt.com (not scanned): 54.240.162.12 54.240.162.124 54.240.162.67
+rDNS record for 54.240.162.25: server-54-240-162-25.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for city-grid.wolt.com (18.155.49.37)
+Host is up (0.38s latency).
+Other addresses for city-grid.wolt.com (not scanned): 18.155.49.8 18.155.49.123 18.155.49.88
+rDNS record for 18.155.49.37: server-18-155-49-37.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for legitimizer.wolt.com (18.155.49.85)
+Host is up (0.15s latency).
+Other addresses for legitimizer.wolt.com (not scanned): 18.155.49.58 18.155.49.65 18.155.49.23
+rDNS record for 18.155.49.85: server-18-155-49-85.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for le-customer-interaction-service.wolt.com (18.155.49.91)
+Host is up (0.17s latency).
+Other addresses for le-customer-interaction-service.wolt.com (not scanned): 18.155.49.99 18.155.49.84 18.155.49.107
+rDNS record for 18.155.49.91: server-18-155-49-91.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ledger.wolt.com (54.240.162.68)
+Host is up (0.22s latency).
+Other addresses for ledger.wolt.com (not scanned): 54.240.162.112 54.240.162.73 54.240.162.115
+rDNS record for 54.240.162.68: server-54-240-162-68.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for life-beta.wolt.com (54.230.27.84)
+Host is up (0.17s latency).
+Other addresses for life-beta.wolt.com (not scanned): 54.230.27.92 54.230.27.95 54.230.27.5
+rDNS record for 54.230.27.84: server-54-230-27-84.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for livemap-api.wolt.com (13.32.251.79)
+Host is up (0.15s latency).
+Other addresses for livemap-api.wolt.com (not scanned): 13.32.251.5 13.32.251.81 13.32.251.100
+rDNS record for 13.32.251.79: server-13-32-251-79.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-app-bff.wolt.com (13.32.251.27)
+Host is up (0.18s latency).
+Other addresses for merchant-app-bff.wolt.com (not scanned): 13.32.251.96 13.32.251.2 13.32.251.129
+rDNS record for 13.32.251.27: server-13-32-251-27.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for loyalty-gateway.wolt.com (108.157.238.82)
+Host is up (0.17s latency).
+Other addresses for loyalty-gateway.wolt.com (not scanned): 108.157.238.12 108.157.238.83 108.157.238.115
+rDNS record for 108.157.238.82: server-108-157-238-82.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for liveops-public-assets.wolt.com (54.240.162.60)
+Host is up (0.17s latency).
+Other addresses for liveops-public-assets.wolt.com (not scanned): 54.240.162.52 54.240.162.37 54.240.162.46
+rDNS record for 54.240.162.60: server-54-240-162-60.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for liveops-api.wolt.com (18.155.33.42)
+Host is up (0.19s latency).
+Other addresses for liveops-api.wolt.com (not scanned): 18.155.33.64 18.155.33.120 18.155.33.76
+rDNS record for 18.155.33.42: server-18-155-33-42.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for liveops-events.wolt.com (54.240.162.76)
+Host is up (0.28s latency).
+Other addresses for liveops-events.wolt.com (not scanned): 54.240.162.53 54.240.162.49 54.240.162.122
+rDNS record for 54.240.162.76: server-54-240-162-76.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for loyalty-program-api.wolt.com (54.240.162.15)
+Host is up (0.14s latency).
+Other addresses for loyalty-program-api.wolt.com (not scanned): 54.240.162.88 54.240.162.3 54.240.162.99
+rDNS record for 54.240.162.15: server-54-240-162-15.hyd57.r.cloudfront.net
+Not shown: 95 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+80/tcp    open   http
+443/tcp   open   https
+1027/tcp  closed IIS
+5357/tcp  closed wsdapi
+49157/tcp closed unknown
+
+Nmap scan report for fleet.wolt.com (108.157.238.13)
+Host is up (0.17s latency).
+Other addresses for fleet.wolt.com (not scanned): 108.157.238.79 108.157.238.98 108.157.238.47
+rDNS record for 108.157.238.13: server-108-157-238-13.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for looker.wolt.com (54.246.217.12)
+Host is up (0.030s latency).
+Other addresses for looker.wolt.com (not scanned): 34.250.211.11 63.32.3.147
+rDNS record for 54.246.217.12: ec2-54-246-217-12.eu-west-1.compute.amazonaws.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ma-warehouse-api.wolt.com (13.32.251.18)
+Host is up (0.16s latency).
+Other addresses for ma-warehouse-api.wolt.com (not scanned): 13.32.251.71 13.32.251.91 13.32.251.54
+rDNS record for 13.32.251.18: server-13-32-251-18.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant.wolt.com (18.155.33.47)
+Host is up (0.15s latency).
+Other addresses for merchant.wolt.com (not scanned): 18.155.33.5 18.155.33.26 18.155.33.88
+rDNS record for 18.155.33.47: server-18-155-33-47.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for people.wolt.com (34.117.62.204)
+Host is up (0.16s latency).
+Other addresses for people.wolt.com (not scanned): 2600:1901:0:370d::
+rDNS record for 34.117.62.204: 204.62.117.34.bc.googleusercontent.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-contact-preferences.wolt.com (18.155.49.95)
+Host is up (0.17s latency).
+Other addresses for merchant-contact-preferences.wolt.com (not scanned): 18.155.49.52 18.155.49.6 18.155.49.121
+rDNS record for 18.155.49.95: server-18-155-49-95.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pl.wolt.com (18.155.33.119)
+Host is up (0.21s latency).
+Other addresses for pl.wolt.com (not scanned): 18.155.33.25 18.155.33.103 18.155.33.79
+rDNS record for 18.155.33.119: server-18-155-33-119.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-onboarding-service.wolt.com (13.32.251.42)
+Host is up (0.18s latency).
+Other addresses for merchant-onboarding-service.wolt.com (not scanned): 13.32.251.12 13.32.251.81 13.32.251.3
+rDNS record for 13.32.251.42: server-13-32-251-42.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-communication-platform.wolt.com (54.230.27.121)
+Host is up (0.020s latency).
+Other addresses for merchant-communication-platform.wolt.com (not scanned): 54.230.27.85 54.230.27.89 54.230.27.36
+rDNS record for 54.230.27.121: server-54-230-27-121.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for links1.wolt.com (54.218.216.165)
+Host is up (0.026s latency).
+Other addresses for links1.wolt.com (not scanned): 32.190.239.36 52.40.78.9
+rDNS record for 54.218.216.165: ec2-54-218-216-165.us-west-2.compute.amazonaws.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for life.wolt.com (54.240.162.45)
+Host is up (0.16s latency).
+Other addresses for life.wolt.com (not scanned): 54.240.162.124 54.240.162.57 54.240.162.100
+rDNS record for 54.240.162.45: server-54-240-162-45.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-api.wolt.com (13.32.251.127)
+Host is up (0.025s latency).
+Other addresses for merchant-api.wolt.com (not scanned): 13.32.251.35 13.32.251.58 13.32.251.121
+rDNS record for 13.32.251.127: server-13-32-251-127.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-app.wolt.com (54.240.162.66)
+Host is up (0.18s latency).
+Other addresses for merchant-app.wolt.com (not scanned): 54.240.162.59 54.240.162.37 54.240.162.70
+rDNS record for 54.240.162.66: server-54-240-162-66.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-gateway.wolt.com (54.240.162.21)
+Host is up (0.16s latency).
+Other addresses for merchant-gateway.wolt.com (not scanned): 54.240.162.109 54.240.162.124 54.240.162.51
+rDNS record for 54.240.162.21: server-54-240-162-21.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-enterprise-service.wolt.com (54.240.162.95)
+Host is up (0.23s latency).
+Other addresses for merchant-enterprise-service.wolt.com (not scanned): 54.240.162.41 54.240.162.30 54.240.162.15
+rDNS record for 54.240.162.95: server-54-240-162-95.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for my2022-api.wolt.com (18.155.49.21)
+Host is up (0.25s latency).
+Other addresses for my2022-api.wolt.com (not scanned): 18.155.49.8 18.155.49.94 18.155.49.86
+rDNS record for 18.155.49.21: server-18-155-49-21.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for picker-api.wolt.com (13.32.251.111)
+Host is up (0.15s latency).
+Other addresses for picker-api.wolt.com (not scanned): 13.32.251.5 13.32.251.95 13.32.251.10
+rDNS record for 13.32.251.111: server-13-32-251-111.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for merchant-payout-service.wolt.com (54.230.27.107)
+Host is up (0.17s latency).
+Other addresses for merchant-payout-service.wolt.com (not scanned): 54.230.27.85 54.230.27.97 54.230.27.18
+rDNS record for 54.230.27.107: server-54-230-27-107.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ops-api.wolt.com (108.159.28.118)
+Host is up (0.14s latency).
+Other addresses for ops-api.wolt.com (not scanned): 108.159.28.84 108.159.28.27 108.159.28.48
+rDNS record for 108.159.28.118: server-108-159-28-118.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mips.wolt.com (108.159.28.104)
+Host is up (0.22s latency).
+Other addresses for mips.wolt.com (not scanned): 108.159.28.79 108.159.28.65 108.159.28.86
+rDNS record for 108.159.28.104: server-108-159-28-104.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for osrm-bike.wolt.com (108.159.28.50)
+Host is up (0.18s latency).
+Other addresses for osrm-bike.wolt.com (not scanned): 108.159.28.80 108.159.28.79 108.159.28.57
+rDNS record for 108.159.28.50: server-108-159-28-50.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ops.wolt.com (108.159.91.42)
+Host is up (0.16s latency).
+Other addresses for ops.wolt.com (not scanned): 108.159.91.59 108.159.91.111 108.159.91.51
+rDNS record for 108.159.91.42: server-108-159-91-42.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for payment-processor-http-api.wolt.com (108.159.28.128)
+Host is up (0.14s latency).
+Other addresses for payment-processor-http-api.wolt.com (not scanned): 108.159.28.73 108.159.28.17 108.159.28.126
+rDNS record for 108.159.28.128: server-108-159-28-128.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for payments-tips-service.wolt.com (108.159.91.37)
+Host is up (0.19s latency).
+Other addresses for payments-tips-service.wolt.com (not scanned): 108.159.91.17 108.159.91.13 108.159.91.109
+rDNS record for 108.159.91.37: server-108-159-91-37.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for osrm-frontend.wolt.com (108.159.91.67)
+Host is up (0.15s latency).
+Other addresses for osrm-frontend.wolt.com (not scanned): 108.159.91.85 108.159.91.108 108.159.91.58
+rDNS record for 108.159.91.67: server-108-159-91-67.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for otel-edge.wolt.com (108.159.91.120)
+Host is up (0.24s latency).
+Other addresses for otel-edge.wolt.com (not scanned): 108.159.91.48 108.159.91.52 108.159.91.57
+rDNS record for 108.159.91.120: server-108-159-91-120.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for payment-service.wolt.com (18.161.125.124)
+Host is up (0.16s latency).
+Other addresses for payment-service.wolt.com (not scanned): 18.161.125.68 18.161.125.67 18.161.125.47
+rDNS record for 18.161.125.124: server-18-161-125-124.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for osrm-car.wolt.com (108.159.28.57)
+Host is up (0.14s latency).
+Other addresses for osrm-car.wolt.com (not scanned): 108.159.28.80 108.159.28.79 108.159.28.50
+rDNS record for 108.159.28.57: server-108-159-28-57.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for osrm-here-car.wolt.com (108.159.28.79)
+Host is up (0.24s latency).
+Other addresses for osrm-here-car.wolt.com (not scanned): 108.159.28.50 108.159.28.80 108.159.28.57
+rDNS record for 108.159.28.79: server-108-159-28-79.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for it.wolt.com (192.178.173.121)
+Host is up (0.19s latency).
+Other addresses for it.wolt.com (not scanned): 2404:6800:4007:834::2013
+rDNS record for 192.178.173.121: lcbome-in-f121.1e100.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for picasso.wolt.com (18.161.125.70)
+Host is up (0.23s latency).
+Other addresses for picasso.wolt.com (not scanned): 18.161.125.47 18.161.125.8 18.161.125.127
+rDNS record for 18.161.125.70: server-18-161-125-70.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for planenator.wolt.com (108.159.91.95)
+Host is up (0.16s latency).
+Other addresses for planenator.wolt.com (not scanned): 108.159.91.19 108.159.91.47 108.159.91.36
+rDNS record for 108.159.91.95: server-108-159-91-95.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pos-integration-service.wolt.com (108.159.28.55)
+Host is up (0.23s latency).
+Other addresses for pos-integration-service.wolt.com (not scanned): 108.159.28.84 108.159.28.126 108.159.28.129
+rDNS record for 108.159.28.55: server-108-159-28-55.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for plutos.wolt.com (108.159.28.23)
+Host is up (0.18s latency).
+Other addresses for plutos.wolt.com (not scanned): 108.159.28.11 108.159.28.98 108.159.28.108
+rDNS record for 108.159.28.23: server-108-159-28-23.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pre-estimates-helper.wolt.com (108.159.91.39)
+Host is up (0.15s latency).
+Other addresses for pre-estimates-helper.wolt.com (not scanned): 108.159.91.76 108.159.91.71 108.159.91.12
+rDNS record for 108.159.91.39: server-108-159-91-39.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prod-wolt-venue-images-cdn.wolt.com (108.159.46.90)
+Host is up (0.28s latency).
+Other addresses for prod-wolt-venue-images-cdn.wolt.com (not scanned): 108.159.46.17 108.159.46.24 108.159.46.13
+rDNS record for 108.159.46.90: server-108-159-46-90.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prod-videos.wolt.com (108.159.91.90)
+Host is up (0.13s latency).
+Other addresses for prod-videos.wolt.com (not scanned): 108.159.91.70 108.159.91.128 108.159.91.47 2600:9000:2575:4c00:18:57e1:bbc0:93a1 2600:9000:2575:8000:18:57e1:bbc0:93a1 2600:9000:2575:4a00:18:57e1:bbc0:93a1 2600:9000:2575:4800:18:57e1:bbc0:93a1 2600:9000:2575:5a00:18:57e1:bbc0:93a1 2600:9000:2575:6e00:18:57e1:bbc0:93a1 2600:9000:2575:d200:18:57e1:bbc0:93a1 2600:9000:2575:b000:18:57e1:bbc0:93a1
+rDNS record for 108.159.91.90: server-108-159-91-90.pnq50.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pricing-platform.wolt.com (13.32.251.121)
+Host is up (0.29s latency).
+Other addresses for pricing-platform.wolt.com (not scanned): 13.32.251.79 13.32.251.19 13.32.251.59
+rDNS record for 13.32.251.121: server-13-32-251-121.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for profile-avatar-cdn.wolt.com (18.155.33.73)
+Host is up (0.24s latency).
+Other addresses for profile-avatar-cdn.wolt.com (not scanned): 18.155.33.72 18.155.33.118 18.155.33.105
+rDNS record for 18.155.33.73: server-18-155-33-73.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for product-information-catalog.wolt.com (13.32.251.55)
+Host is up (0.18s latency).
+Other addresses for product-information-catalog.wolt.com (not scanned): 13.32.251.2 13.32.251.7 13.32.251.104
+rDNS record for 13.32.251.55: server-13-32-251-55.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prodinfo.wolt.com (18.155.49.6)
+Host is up (0.17s latency).
+Other addresses for prodinfo.wolt.com (not scanned): 18.155.49.108 18.155.49.29 18.155.49.62
+rDNS record for 18.155.49.6: server-18-155-49-6.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for product-information-service.wolt.com (13.32.251.101)
+Host is up (0.14s latency).
+Other addresses for product-information-service.wolt.com (not scanned): 13.32.251.30 13.32.251.45 13.32.251.81
+rDNS record for 13.32.251.101: server-13-32-251-101.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for product-data-review-tool.wolt.com (18.155.33.107)
+Host is up (0.20s latency).
+Other addresses for product-data-review-tool.wolt.com (not scanned): 18.155.33.15 18.155.33.31 18.155.33.52
+rDNS record for 18.155.33.107: server-18-155-33-107.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for regatta-proxy.wolt.com (54.240.162.70)
+Host is up (0.25s latency).
+Other addresses for regatta-proxy.wolt.com (not scanned): 54.240.162.85 54.240.162.110 54.240.162.62
+rDNS record for 54.240.162.70: server-54-240-162-70.hyd57.r.cloudfront.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for regatta-public.wolt.com (54.230.27.76)
+Host is up (0.011s latency).
+Other addresses for regatta-public.wolt.com (not scanned): 54.230.27.56 54.230.27.70 54.230.27.119
+rDNS record for 54.230.27.76: server-54-230-27-76.hyd57.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for prod-nginx-ingress-public.wolt.com (54.78.70.29)
+Host is up (0.010s latency).
+rDNS record for 54.78.70.29: ec2-54-78-70-29.eu-west-1.compute.amazonaws.com
+All 100 scanned ports on prod-nginx-ingress-public.wolt.com (54.78.70.29) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for risk-score.wolt.com (108.157.238.28)
+Host is up (0.0093s latency).
+Other addresses for risk-score.wolt.com (not scanned): 108.157.238.19 108.157.238.4 108.157.238.109
+rDNS record for 108.157.238.28: server-108-157-238-28.hyd57.r.cloudfront.net
+All 100 scanned ports on risk-score.wolt.com (108.157.238.28) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for restaurant-api.wolt.com (54.230.27.96)
+Host is up (0.0092s latency).
+Other addresses for restaurant-api.wolt.com (not scanned): 54.230.27.61 54.230.27.74 54.230.27.36
+rDNS record for 54.230.27.96: server-54-230-27-96.hyd57.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for robinhood.wolt.com (108.157.238.66)
+Host is up (0.013s latency).
+Other addresses for robinhood.wolt.com (not scanned): 108.157.238.90 108.157.238.120 108.157.238.27
+rDNS record for 108.157.238.66: server-108-157-238-66.hyd57.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for self-service-promotions-http-api.wolt.com (18.155.49.40)
+Host is up (0.0091s latency).
+Other addresses for self-service-promotions-http-api.wolt.com (not scanned): 18.155.49.104 18.155.49.96 18.155.49.57
+rDNS record for 18.155.49.40: server-18-155-49-40.hyd57.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for restocking-service.wolt.com (54.230.27.82)
+Host is up (0.0099s latency).
+Other addresses for restocking-service.wolt.com (not scanned): 54.230.27.51 54.230.27.114 54.230.27.125
+rDNS record for 54.230.27.82: server-54-230-27-82.hyd57.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for salsa.wolt.com (54.240.162.114)
+Host is up (0.011s latency).
+Other addresses for salsa.wolt.com (not scanned): 54.240.162.16 54.240.162.109 54.240.162.34
+rDNS record for 54.240.162.114: server-54-240-162-114.hyd57.r.cloudfront.net
+All 100 scanned ports on salsa.wolt.com (54.240.162.114) are in ignored states.
+Not shown: 86 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+
+Nmap scan report for settlement-service.wolt.com (13.32.251.88)
+Host is up (0.011s latency).
+Other addresses for settlement-service.wolt.com (not scanned): 13.32.251.109 13.32.251.119 13.32.251.78
+rDNS record for 13.32.251.88: server-13-32-251-88.hyd57.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for storefront-service.wolt.com (54.230.27.34)
+Host is up (0.010s latency).
+Other addresses for storefront-service.wolt.com (not scanned): 54.230.27.62 54.230.27.128 54.230.27.45
+rDNS record for 54.230.27.34: server-54-230-27-34.hyd57.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for subscriptions.wolt.com (54.230.27.13)
+Host is up (0.011s latency).
+Other addresses for subscriptions.wolt.com (not scanned): 54.230.27.34 54.230.27.11 54.230.27.78
+rDNS record for 54.230.27.13: server-54-230-27-13.hyd57.r.cloudfront.net
+All 100 scanned ports on subscriptions.wolt.com (54.230.27.13) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for static.wolt.com (18.155.49.2)
+Host is up (0.011s latency).
+Other addresses for static.wolt.com (not scanned): 18.155.49.57 18.155.49.77 18.155.49.82 2600:9000:2572:fe00:13:fe8:49c0:93a1 2600:9000:2572:8200:13:fe8:49c0:93a1 2600:9000:2572:6200:13:fe8:49c0:93a1 2600:9000:2572:be00:13:fe8:49c0:93a1 2600:9000:2572:c800:13:fe8:49c0:93a1 2600:9000:2572:7a00:13:fe8:49c0:93a1 2600:9000:2572:6c00:13:fe8:49c0:93a1 2600:9000:2572:6000:13:fe8:49c0:93a1
+rDNS record for 18.155.49.2: server-18-155-49-2.hyd57.r.cloudfront.net
+Not shown: 78 filtered tcp ports (net-unreach), 20 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for tax-integration-service.wolt.com (18.155.49.127)
+Host is up (0.011s latency).
+Other addresses for tax-integration-service.wolt.com (not scanned): 18.155.49.61 18.155.49.104 18.155.49.90
+rDNS record for 18.155.49.127: server-18-155-49-127.hyd57.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for supportive-api.wolt.com (13.32.251.3)
+Host is up (0.010s latency).
+Other addresses for supportive-api.wolt.com (not scanned): 13.32.251.78 13.32.251.77 13.32.251.7
+rDNS record for 13.32.251.3: server-13-32-251-3.hyd57.r.cloudfront.net
+Not shown: 73 filtered tcp ports (net-unreach), 25 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for tally.wolt.com (54.240.162.127)
+Host is up (0.011s latency).
+Other addresses for tally.wolt.com (not scanned): 54.240.162.116 54.240.162.114 54.240.162.14
+rDNS record for 54.240.162.127: server-54-240-162-127.hyd57.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for tax-reporting-service.wolt.com (108.157.238.48)
+Host is up (0.0087s latency).
+Other addresses for tax-reporting-service.wolt.com (not scanned): 108.157.238.12 108.157.238.122 108.157.238.22
+rDNS record for 108.157.238.48: server-108-157-238-48.hyd57.r.cloudfront.net
+All 100 scanned ports on tax-reporting-service.wolt.com (108.157.238.48) are in ignored states.
+Not shown: 86 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+
+Nmap scan report for temp-cashier.wolt.com (108.159.46.39)
+Host is up (0.0094s latency).
+Other addresses for temp-cashier.wolt.com (not scanned): 108.159.46.124 108.159.46.101 108.159.46.5
+rDNS record for 108.159.46.39: server-108-159-46-39.pnq50.r.cloudfront.net
+All 100 scanned ports on temp-cashier.wolt.com (108.159.46.39) are in ignored states.
+Not shown: 86 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+
+Nmap scan report for temp-broker-jr.wolt.com (108.159.28.75)
+Host is up (0.0096s latency).
+Other addresses for temp-broker-jr.wolt.com (not scanned): 108.159.28.76 108.159.28.92 108.159.28.32
+rDNS record for 108.159.28.75: server-108-159-28-75.pnq50.r.cloudfront.net
+Not shown: 78 filtered tcp ports (net-unreach), 20 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for temp-auditorium.wolt.com (18.161.125.68)
+Host is up (0.011s latency).
+Other addresses for temp-auditorium.wolt.com (not scanned): 18.161.125.32 18.161.125.26 18.161.125.92
+rDNS record for 18.161.125.68: server-18-161-125-68.pnq50.r.cloudfront.net
+All 100 scanned ports on temp-auditorium.wolt.com (18.161.125.68) are in ignored states.
+Not shown: 88 filtered tcp ports (net-unreach), 12 filtered tcp ports (no-response)
+
+Nmap scan report for test-wolt-venue-images-cdn.wolt.com (108.159.46.47)
+Host is up (0.0091s latency).
+Other addresses for test-wolt-venue-images-cdn.wolt.com (not scanned): 108.159.46.2 108.159.46.128 108.159.46.125 2600:9000:2578:e000:10:99e6:c7c0:93a1 2600:9000:2578:7600:10:99e6:c7c0:93a1 2600:9000:2578:6000:10:99e6:c7c0:93a1 2600:9000:2578:2400:10:99e6:c7c0:93a1 2600:9000:2578:f400:10:99e6:c7c0:93a1 2600:9000:2578:1800:10:99e6:c7c0:93a1 2600:9000:2578:ae00:10:99e6:c7c0:93a1 2600:9000:2578:9600:10:99e6:c7c0:93a1
+rDNS record for 108.159.46.47: server-108-159-46-47.pnq50.r.cloudfront.net
+All 100 scanned ports on test-wolt-venue-images-cdn.wolt.com (108.159.46.47) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for test-kitchen.wolt.com (108.159.46.95)
+Host is up (0.0094s latency).
+Other addresses for test-kitchen.wolt.com (not scanned): 108.159.46.104 108.159.46.45 108.159.46.14
+rDNS record for 108.159.46.95: server-108-159-46-95.pnq50.r.cloudfront.net
+Not shown: 83 filtered tcp ports (net-unreach), 16 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for support-funnel.wolt.com (108.159.28.109)
+Host is up (0.0099s latency).
+Other addresses for support-funnel.wolt.com (not scanned): 108.159.28.6 108.159.28.95 108.159.28.53
+rDNS record for 108.159.28.109: server-108-159-28-109.pnq50.r.cloudfront.net
+Not shown: 77 filtered tcp ports (net-unreach), 21 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for temp-consumer-events.wolt.com (108.159.91.60)
+Host is up (0.011s latency).
+Other addresses for temp-consumer-events.wolt.com (not scanned): 108.159.91.86 108.159.91.54 108.159.91.70
+rDNS record for 108.159.91.60: server-108-159-91-60.pnq50.r.cloudfront.net
+All 100 scanned ports on temp-consumer-events.wolt.com (108.159.91.60) are in ignored states.
+Not shown: 90 filtered tcp ports (net-unreach), 10 filtered tcp ports (no-response)
+
+Nmap scan report for temp-wolf.wolt.com (18.161.125.111)
+Host is up (0.0086s latency).
+Other addresses for temp-wolf.wolt.com (not scanned): 18.161.125.74 18.161.125.22 18.161.125.15
+rDNS record for 18.161.125.111: server-18-161-125-111.pnq50.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for track.wolt.com (18.161.125.115)
+Host is up (0.010s latency).
+Other addresses for track.wolt.com (not scanned): 18.161.125.43 18.161.125.52 18.161.125.119
+rDNS record for 18.161.125.115: server-18-161-125-115.pnq50.r.cloudfront.net
+All 100 scanned ports on track.wolt.com (18.161.125.115) are in ignored states.
+Not shown: 91 filtered tcp ports (net-unreach), 9 filtered tcp ports (no-response)
+
+Nmap scan report for vat-categories.wolt.com (18.161.125.48)
+Host is up (0.0100s latency).
+Other addresses for vat-categories.wolt.com (not scanned): 18.161.125.95 18.161.125.112 18.161.125.9
+rDNS record for 18.161.125.48: server-18-161-125-48.pnq50.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for retailreport.wolt.com (188.34.191.22)
+Host is up (0.010s latency).
+Other addresses for retailreport.wolt.com (not scanned): 2a01:4f8:1c17:6c5a::1
+rDNS record for 188.34.191.22: static.22.191.34.188.clients.your-server.de
+Not shown: 87 filtered tcp ports (net-unreach), 12 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for unified-notifications.wolt.com (18.161.125.86)
+Host is up (0.0089s latency).
+Other addresses for unified-notifications.wolt.com (not scanned): 18.161.125.129 18.161.125.44 18.161.125.78
+rDNS record for 18.161.125.86: server-18-161-125-86.pnq50.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for venue-campaign-service-ops.wolt.com (108.159.28.117)
+Host is up (0.010s latency).
+Other addresses for venue-campaign-service-ops.wolt.com (not scanned): 108.159.28.35 108.159.28.29 108.159.28.119
+rDNS record for 108.159.28.117: server-108-159-28-117.pnq50.r.cloudfront.net
+All 100 scanned ports on venue-campaign-service-ops.wolt.com (108.159.28.117) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for webfonts.wolt.com (18.161.125.30)
+Host is up (0.0099s latency).
+Other addresses for webfonts.wolt.com (not scanned): 18.161.125.106 18.161.125.61 18.161.125.34
+rDNS record for 18.161.125.30: server-18-161-125-30.pnq50.r.cloudfront.net
+All 100 scanned ports on webfonts.wolt.com (18.161.125.30) are in ignored states.
+Not shown: 86 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+
+Nmap scan report for wm-warehouse-management-service.wolt.com (108.159.91.43)
+Host is up (0.010s latency).
+Other addresses for wm-warehouse-management-service.wolt.com (not scanned): 108.159.91.27 108.159.91.62 108.159.91.47
+rDNS record for 108.159.91.43: server-108-159-91-43.pnq50.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for wls-broker-jr.wolt.com (108.159.28.122)
+Host is up (0.011s latency).
+Other addresses for wls-broker-jr.wolt.com (not scanned): 108.159.28.10 108.159.28.129 108.159.28.84
+rDNS record for 108.159.28.122: server-108-159-28-122.pnq50.r.cloudfront.net
+All 100 scanned ports on wls-broker-jr.wolt.com (108.159.28.122) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for uranium.wolt.com (108.159.46.29)
+Host is up (0.010s latency).
+Other addresses for uranium.wolt.com (not scanned): 108.159.46.121 108.159.46.17 108.159.46.13
+rDNS record for 108.159.46.29: server-108-159-46-29.pnq50.r.cloudfront.net
+Not shown: 83 filtered tcp ports (net-unreach), 16 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for wls-payout-service.wolt.com (108.159.46.59)
+Host is up (0.0100s latency).
+Other addresses for wls-payout-service.wolt.com (not scanned): 108.159.46.13 108.159.46.98 108.159.46.112
+rDNS record for 108.159.46.59: server-108-159-46-59.pnq50.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for wm-director-static-assets.wolt.com (108.159.91.56)
+Host is up (0.010s latency).
+Other addresses for wm-director-static-assets.wolt.com (not scanned): 108.159.91.42 108.159.91.17 108.159.91.103
+rDNS record for 108.159.91.56: server-108-159-91-56.pnq50.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for wolf.wolt.com (18.161.125.22)
+Host is up (0.011s latency).
+Other addresses for wolf.wolt.com (not scanned): 18.161.125.111 18.161.125.74 18.161.125.15
+rDNS record for 18.161.125.22: server-18-161-125-22.pnq50.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for status.wolt.com (108.159.46.112)
+Host is up (0.0096s latency).
+Other addresses for status.wolt.com (not scanned): 108.159.46.48 108.159.46.35 108.159.46.23
+rDNS record for 108.159.46.112: server-108-159-46-112.pnq50.r.cloudfront.net
+All 100 scanned ports on status.wolt.com (108.159.46.112) are in ignored states.
+Not shown: 89 filtered tcp ports (net-unreach), 11 filtered tcp ports (no-response)
+
+Nmap scan report for wls-customer-service.wolt.com (108.159.28.25)
+Host is up (0.010s latency).
+Other addresses for wls-customer-service.wolt.com (not scanned): 108.159.28.118 108.159.28.87 108.159.28.127
+rDNS record for 108.159.28.25: server-108-159-28-25.pnq50.r.cloudfront.net
+All 100 scanned ports on wls-customer-service.wolt.com (108.159.28.25) are in ignored states.
+Not shown: 89 filtered tcp ports (net-unreach), 11 filtered tcp ports (no-response)
+
+Nmap scan report for util.wolt.com (34.253.218.235)
+Host is up (0.011s latency).
+rDNS record for 34.253.218.235: ec2-34-253-218-235.eu-west-1.compute.amazonaws.com
+Not shown: 90 filtered tcp ports (net-unreach), 9 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+53/tcp open  domain
+
+Nmap scan report for www.wolt.com (108.159.28.98)
+Host is up (0.0098s latency).
+Other addresses for www.wolt.com (not scanned): 108.159.28.16 108.159.28.64 108.159.28.24
+rDNS record for 108.159.28.98: server-108-159-28-98.pnq50.r.cloudfront.net
+All 100 scanned ports on www.wolt.com (108.159.28.98) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for wolt-com-static-assets.wolt.com (108.159.91.7)
+Host is up (0.011s latency).
+Other addresses for wolt-com-static-assets.wolt.com (not scanned): 108.159.91.66 108.159.91.37 108.159.91.99
+rDNS record for 108.159.91.7: server-108-159-91-7.pnq50.r.cloudfront.net
+Not shown: 83 filtered tcp ports (net-unreach), 16 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for wolt-menu-images-cdn.wolt.com (108.159.91.38)
+Host is up (0.010s latency).
+Other addresses for wolt-menu-images-cdn.wolt.com (not scanned): 108.159.91.26 108.159.91.21 108.159.91.80
+rDNS record for 108.159.91.38: server-108-159-91-38.pnq50.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for confluence.wolt.com (3.5.94.31)
+Host is up (0.0091s latency).
+Other addresses for confluence.wolt.com (not scanned): 3.5.66.49 3.5.73.16 3.5.73.108 52.92.4.140 3.5.71.69 3.5.75.64 3.5.73.51
+Not shown: 85 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+445/tcp open  microsoft-ds
+
+Nmap scan report for pm-bounces.wolt.com (3.132.40.164)
+Host is up (0.0084s latency).
+Other addresses for pm-bounces.wolt.com (not scanned): 16.58.250.99 3.138.45.241
+rDNS record for 3.132.40.164: ec2-3-132-40-164.us-east-2.compute.amazonaws.com
+Not shown: 99 filtered tcp ports (net-unreach)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for team.wolt.com (3.5.73.16)
+Host is up (0.012s latency).
+Other addresses for team.wolt.com (not scanned): 52.92.20.12 3.5.74.82 3.5.75.51 3.5.73.100 3.5.72.66 3.5.69.27 3.5.98.84
+Not shown: 83 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+445/tcp open  microsoft-ds
+
+Nmap scan report for auth.wolt.com (18.155.49.36)
+Host is up (0.0096s latency).
+Other addresses for auth.wolt.com (not scanned): 18.155.49.97 18.155.49.27 18.155.49.106
+rDNS record for 18.155.49.36: server-18-155-49-36.hyd57.r.cloudfront.net
+Not shown: 86 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for converse-api-dd.wolt.com (108.159.28.34)
+Host is up (0.0099s latency).
+Other addresses for converse-api-dd.wolt.com (not scanned): 108.159.28.97 108.159.28.64 108.159.28.114
+rDNS record for 108.159.28.34: server-108-159-28-34.pnq50.r.cloudfront.net
+Not shown: 83 filtered tcp ports (net-unreach), 16 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for cp-referral-bonus-service.wolt.com (108.159.46.69)
+Host is up (0.012s latency).
+Other addresses for cp-referral-bonus-service.wolt.com (not scanned): 108.159.46.5 108.159.46.56 108.159.46.51
+rDNS record for 108.159.46.69: server-108-159-46-69.pnq50.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for daas-public-api.wolt.com (108.159.46.113)
+Host is up (0.0098s latency).
+Other addresses for daas-public-api.wolt.com (not scanned): 108.159.46.54 108.159.46.34 108.159.46.114
+rDNS record for 108.159.46.113: server-108-159-46-113.pnq50.r.cloudfront.net
+All 100 scanned ports on daas-public-api.wolt.com (108.159.46.113) are in ignored states.
+Not shown: 88 filtered tcp ports (net-unreach), 12 filtered tcp ports (no-response)
+
+Nmap scan report for data-governance-api.wolt.com (18.161.125.85)
+Host is up (0.0098s latency).
+Other addresses for data-governance-api.wolt.com (not scanned): 18.161.125.33 18.161.125.68 18.161.125.48
+rDNS record for 18.161.125.85: server-18-161-125-85.pnq50.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for delivery-os-integration.wolt.com (18.161.125.12)
+Host is up (0.012s latency).
+Other addresses for delivery-os-integration.wolt.com (not scanned): 18.161.125.19 18.161.125.108 18.161.125.103
+rDNS record for 18.161.125.12: server-18-161-125-12.pnq50.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for fintech-hta.wolt.com (18.161.125.127)
+Host is up (0.011s latency).
+Other addresses for fintech-hta.wolt.com (not scanned): 18.161.125.26 18.161.125.4 18.161.125.20
+rDNS record for 18.161.125.127: server-18-161-125-127.pnq50.r.cloudfront.net
+Not shown: 80 filtered tcp ports (net-unreach), 18 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for document-service.wolt.com (108.159.46.23)
+Host is up (0.0099s latency).
+Other addresses for document-service.wolt.com (not scanned): 108.159.46.27 108.159.46.46 108.159.46.16
+rDNS record for 108.159.46.23: server-108-159-46-23.pnq50.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for document-verification.wolt.com (108.159.46.86)
+Host is up (0.0096s latency).
+Other addresses for document-verification.wolt.com (not scanned): 108.159.46.120 108.159.46.39 108.159.46.126
+rDNS record for 108.159.46.86: server-108-159-46-86.pnq50.r.cloudfront.net
+Not shown: 93 filtered tcp ports (net-unreach), 6 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for get.wolt.com (108.159.28.90)
+Host is up (0.0091s latency).
+Other addresses for get.wolt.com (not scanned): 108.159.28.117 108.159.28.12 108.159.28.124
+rDNS record for 108.159.28.90: server-108-159-28-90.pnq50.r.cloudfront.net
+Not shown: 85 filtered tcp ports (net-unreach), 14 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for external-task-ingestion.wolt.com (108.159.28.81)
+Host is up (0.011s latency).
+Other addresses for external-task-ingestion.wolt.com (not scanned): 108.159.28.21 108.159.28.49 108.159.28.34
+rDNS record for 108.159.28.81: server-108-159-28-81.pnq50.r.cloudfront.net
+All 100 scanned ports on external-task-ingestion.wolt.com (108.159.28.81) are in ignored states.
+Not shown: 89 filtered tcp ports (net-unreach), 11 filtered tcp ports (no-response)
+
+Nmap scan report for explore-beta.wolt.com (108.159.91.66)
+Host is up (0.011s latency).
+Other addresses for explore-beta.wolt.com (not scanned): 108.159.91.40 108.159.91.60 108.159.91.35
+rDNS record for 108.159.91.66: server-108-159-91-66.pnq50.r.cloudfront.net
+Not shown: 86 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for insights.wolt.com (18.155.33.37)
+Host is up (0.0093s latency).
+Other addresses for insights.wolt.com (not scanned): 18.155.33.7 18.155.33.123 18.155.33.106
+rDNS record for 18.155.33.37: server-18-155-33-37.hyd57.r.cloudfront.net
+Not shown: 83 filtered tcp ports (net-unreach), 16 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for legacy-corporate.wolt.com (18.155.33.7)
+Host is up (0.010s latency).
+Other addresses for legacy-corporate.wolt.com (not scanned): 18.155.33.123 18.155.33.37 18.155.33.106
+rDNS record for 18.155.33.7: server-18-155-33-7.hyd57.r.cloudfront.net
+Not shown: 99 filtered tcp ports (net-unreach)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for legacy-fulfillment.wolt.com (18.155.33.106)
+Host is up (0.0086s latency).
+Other addresses for legacy-fulfillment.wolt.com (not scanned): 18.155.33.123 18.155.33.37 18.155.33.7
+rDNS record for 18.155.33.106: server-18-155-33-106.hyd57.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for links.woltforwork.wolt.com (34.36.71.179)
+Host is up (0.011s latency).
+rDNS record for 34.36.71.179: 179.71.36.34.bc.googleusercontent.com
+Not shown: 80 filtered tcp ports (net-unreach), 18 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mips-images.wolt.com (54.240.162.23)
+Host is up (0.010s latency).
+Other addresses for mips-images.wolt.com (not scanned): 54.240.162.25 54.240.162.19 54.240.162.118
+rDNS record for 54.240.162.23: server-54-240-162-23.hyd57.r.cloudfront.net
+Not shown: 84 filtered tcp ports (net-unreach), 15 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for identity.wolt.com (104.21.45.94)
+Host is up (0.0074s latency).
+Other addresses for identity.wolt.com (not scanned): 172.67.212.218 2606:4700:90d3:3c2c:4a0d:90e:4408:ecbf
+All 100 scanned ports on identity.wolt.com (104.21.45.94) are in ignored states.
+Not shown: 87 filtered tcp ports (net-unreach), 13 filtered tcp ports (no-response)
+
+Nmap scan report for micro-task-service-api.wolt.com (54.230.27.84)
+Host is up (0.011s latency).
+Other addresses for micro-task-service-api.wolt.com (not scanned): 54.230.27.2 54.230.27.74 54.230.27.94
+rDNS record for 54.230.27.84: server-54-230-27-84.hyd57.r.cloudfront.net
+Not shown: 82 filtered tcp ports (net-unreach), 17 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for opstools-api.wolt.com (108.159.28.84)
+Host is up (0.0022s latency).
+Other addresses for opstools-api.wolt.com (not scanned): 108.159.28.118 108.159.28.48 108.159.28.27
+rDNS record for 108.159.28.84: server-108-159-28-84.pnq50.r.cloudfront.net
+All 100 scanned ports on opstools-api.wolt.com (108.159.28.84) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for orion-api.wolt.com (108.159.91.42)
+Host is up (0.0023s latency).
+Other addresses for orion-api.wolt.com (not scanned): 108.159.91.116 108.159.91.67 108.159.91.22
+rDNS record for 108.159.91.42: server-108-159-91-42.pnq50.r.cloudfront.net
+All 100 scanned ports on orion-api.wolt.com (108.159.91.42) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for rentmeester-webhook.wolt.com (18.161.125.26)
+Host is up (0.0026s latency).
+Other addresses for rentmeester-webhook.wolt.com (not scanned): 18.161.125.20 18.161.125.127 18.161.125.4
+rDNS record for 18.161.125.26: server-18-161-125-26.pnq50.r.cloudfront.net
+All 100 scanned ports on rentmeester-webhook.wolt.com (18.161.125.26) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for protectron.wolt.com (18.161.125.80)
+Host is up (0.0023s latency).
+Other addresses for protectron.wolt.com (not scanned): 18.161.125.68 18.161.125.108 18.161.125.58
+rDNS record for 18.161.125.80: server-18-161-125-80.pnq50.r.cloudfront.net
+All 100 scanned ports on protectron.wolt.com (18.161.125.80) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for regatta.wolt.com (54.230.27.76)
+Host is up (0.0023s latency).
+Other addresses for regatta.wolt.com (not scanned): 54.230.27.119 54.230.27.70 54.230.27.56
+rDNS record for 54.230.27.76: server-54-230-27-76.hyd57.r.cloudfront.net
+All 100 scanned ports on regatta.wolt.com (54.230.27.76) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for routemill.wolt.com (13.32.251.27)
+Host is up (0.0025s latency).
+Other addresses for routemill.wolt.com (not scanned): 13.32.251.92 13.32.251.114 13.32.251.115
+rDNS record for 13.32.251.27: server-13-32-251-27.hyd57.r.cloudfront.net
+All 100 scanned ports on routemill.wolt.com (13.32.251.27) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for techradar.wolt.com (108.159.28.108)
+Host is up (0.0025s latency).
+Other addresses for techradar.wolt.com (not scanned): 108.159.28.31 108.159.28.35 108.159.28.125
+rDNS record for 108.159.28.108: server-108-159-28-108.pnq50.r.cloudfront.net
+All 100 scanned ports on techradar.wolt.com (108.159.28.108) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for temp-communications-service.wolt.com (18.161.125.68)
+Host is up (0.0023s latency).
+Other addresses for temp-communications-service.wolt.com (not scanned): 18.161.125.80 18.161.125.18 18.161.125.96
+rDNS record for 18.161.125.68: server-18-161-125-68.pnq50.r.cloudfront.net
+All 100 scanned ports on temp-communications-service.wolt.com (18.161.125.68) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for temp-corporate.wolt.com (108.159.46.92)
+Host is up (0.0023s latency).
+Other addresses for temp-corporate.wolt.com (not scanned): 108.159.46.93 108.159.46.66 108.159.46.114
+rDNS record for 108.159.46.92: server-108-159-46-92.pnq50.r.cloudfront.net
+All 100 scanned ports on temp-corporate.wolt.com (108.159.46.92) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for temp-consentio-gateway.wolt.com (108.159.46.39)
+Host is up (0.0020s latency).
+Other addresses for temp-consentio-gateway.wolt.com (not scanned): 108.159.46.6 108.159.46.69 108.159.46.28
+rDNS record for 108.159.46.39: server-108-159-46-39.pnq50.r.cloudfront.net
+All 100 scanned ports on temp-consentio-gateway.wolt.com (108.159.46.39) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for wm-gateway.wolt.com (18.161.125.112)
+Host is up (0.0024s latency).
+Other addresses for wm-gateway.wolt.com (not scanned): 18.161.125.31 18.161.125.37 18.161.125.33
+rDNS record for 18.161.125.112: server-18-161-125-112.pnq50.r.cloudfront.net
+All 100 scanned ports on wm-gateway.wolt.com (18.161.125.112) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for wolt-com-sitemap.wolt.com (108.159.28.104)
+Host is up (0.0023s latency).
+Other addresses for wolt-com-sitemap.wolt.com (not scanned): 108.159.28.48 108.159.28.102 108.159.28.39
+rDNS record for 108.159.28.104: server-108-159-28-104.pnq50.r.cloudfront.net
+All 100 scanned ports on wolt-com-sitemap.wolt.com (108.159.28.104) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for wolt-capital-data-sharing.wolt.com (108.159.91.95)
+Host is up (0.0022s latency).
+Other addresses for wolt-capital-data-sharing.wolt.com (not scanned): 108.159.91.60 108.159.91.18 108.159.91.32
+rDNS record for 108.159.91.95: server-108-159-91-95.pnq50.r.cloudfront.net
+All 100 scanned ports on wolt-capital-data-sharing.wolt.com (108.159.91.95) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for old-communications-service.wolt.com (18.155.33.7)
+Host is up (0.0019s latency).
+Other addresses for old-communications-service.wolt.com (not scanned): 18.155.33.37 18.155.33.106 18.155.33.123
+rDNS record for 18.155.33.7: server-18-155-33-7.hyd57.r.cloudfront.net
+All 100 scanned ports on old-communications-service.wolt.com (18.155.33.7) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for market-busyness.wolt.com (18.155.33.106)
+Host is up (0.0023s latency).
+Other addresses for market-busyness.wolt.com (not scanned): 18.155.33.25 18.155.33.114 18.155.33.37
+rDNS record for 18.155.33.106: server-18-155-33-106.hyd57.r.cloudfront.net
+All 100 scanned ports on market-busyness.wolt.com (18.155.33.106) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for reconciliation-service.wolt.com (18.161.125.127)
+Host is up (0.0018s latency).
+Other addresses for reconciliation-service.wolt.com (not scanned): 18.161.125.26 18.161.125.20 18.161.125.4
+rDNS record for 18.161.125.127: server-18-161-125-127.pnq50.r.cloudfront.net
+All 100 scanned ports on reconciliation-service.wolt.com (18.161.125.127) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for steiger-webhook.wolt.com (18.161.125.26)
+Host is up (0.0049s latency).
+Other addresses for steiger-webhook.wolt.com (not scanned): 18.161.125.127 18.161.125.4 18.161.125.20
+rDNS record for 18.161.125.26: server-18-161-125-26.pnq50.r.cloudfront.net
+All 100 scanned ports on steiger-webhook.wolt.com (18.161.125.26) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for preferences.wolt.com (104.21.45.94)
+Host is up (0.0048s latency).
+Other addresses for preferences.wolt.com (not scanned): 172.67.212.218 2606:4700:90d3:3c2c:4a39:8ba:4408:ecbf
+All 100 scanned ports on preferences.wolt.com (104.21.45.94) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for venue-content-api-intake.wolt.com (18.161.125.85)
+Host is up (0.0053s latency).
+Other addresses for venue-content-api-intake.wolt.com (not scanned): 18.161.125.49 18.161.125.57 18.161.125.21
+rDNS record for 18.161.125.85: server-18-161-125-85.pnq50.r.cloudfront.net
+All 100 scanned ports on venue-content-api-intake.wolt.com (18.161.125.85) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+Nmap scan report for topup-service.wolt.com (18.161.125.26)
+Host is up (0.0028s latency).
+Other addresses for topup-service.wolt.com (not scanned): 18.161.125.70 18.161.125.31 18.161.125.32
+rDNS record for 18.161.125.26: server-18-161-125-26.pnq50.r.cloudfront.net
+All 100 scanned ports on topup-service.wolt.com (18.161.125.26) are in ignored states.
+Not shown: 100 filtered tcp ports (net-unreach)
+
+# Nmap done at Tue Nov 10 13:15:19 2026 -- 276 IP addresses (276 hosts up) scanned in 327.31 seconds
